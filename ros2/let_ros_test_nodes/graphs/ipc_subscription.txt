@@ -1,0 +1,2 @@
+let_ros_test_nodes let_ros_test::Source -r __node:=src -p topic:=a -p ipc:=true
+let_ros_test_nodes let_ros_test::Relay  -r __node:=relay -p in:=a -p out:=b -p ipc:=true

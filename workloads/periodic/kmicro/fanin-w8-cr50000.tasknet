@@ -1,0 +1,22 @@
+tasknet v1
+tick_ns 100000
+H 1176400
+D 100
+initseed 1
+task w0 10 0 10 8 const:10000 0
+task w1 10 0 10 8 const:10000 0
+task w2 10 0 10 8 const:10000 0
+task w3 10 0 10 8 const:10000 0
+task w4 10 0 10 8 const:10000 0
+task w5 10 0 10 8 const:10000 0
+task w6 10 0 10 8 const:10000 0
+task w7 10 0 10 8 const:10000 0
+task reader 100 0 100 8 const:50000 0
+link 0 8
+link 1 8
+link 2 8
+link 3 8
+link 4 8
+link 5 8
+link 6 8
+link 7 8

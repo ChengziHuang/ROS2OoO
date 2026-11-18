@@ -1,0 +1,7 @@
+#include "conformance_nodes.hpp"
+#include <rclcpp_components/register_node_macro.hpp>
+
+RCLCPP_COMPONENTS_REGISTER_NODE(let_ros_test::ConformanceSource)
+RCLCPP_COMPONENTS_REGISTER_NODE(let_ros_test::ConformanceSink)
+RCLCPP_COMPONENTS_REGISTER_NODE(let_ros_test::ConformanceStringSink)
+RCLCPP_COMPONENTS_REGISTER_NODE(let_ros_test::ConformanceOrderSink)

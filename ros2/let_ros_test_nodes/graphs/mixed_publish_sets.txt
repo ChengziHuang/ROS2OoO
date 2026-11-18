@@ -1,0 +1,17 @@
+/src_a timer /a
+/src_b timer /b
+/src_c1 timer /c
+/src_c2 timer /c
+/relay_a /a /a2
+/relay_c /c /c2
+/fuse_ab /a2 /f
+/fuse_ab /b /f
+/gate /f /g
+/burst /g /u
+/sampler timer /s
+/sampler /c2 -
+/sampler /loop -
+/sampler /u -
+/relay_loop /s /loop
+/tt timer /t
+/relay_t /t /t2

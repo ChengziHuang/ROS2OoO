@@ -1,0 +1,139 @@
+tasknet v1
+tick_ns 100000
+H 585160
+D 1000
+initseed 1
+task t0 10 0 10 8 const:10000 0
+task t1 100 0 100 8 const:10000 0
+task t2 1000 0 1000 8 const:10000 0
+task t3 20 0 20 8 const:10000 0
+task t4 200 0 200 8 const:10000 0
+task t5 500 0 500 8 const:10000 0
+task t6 50 0 50 8 const:10000 0
+task t7 10 0 10 8 const:10000 0
+task t8 100 0 100 8 const:10000 0
+task t9 1000 0 1000 8 const:10000 0
+task t10 20 0 20 8 const:10000 0
+task t11 200 0 200 8 const:10000 0
+task t12 500 0 500 8 const:10000 0
+task t13 50 0 50 8 const:10000 0
+task t14 10 0 10 8 const:10000 0
+task t15 100 0 100 8 const:10000 0
+task t16 1000 0 1000 8 const:10000 0
+task t17 20 0 20 8 const:10000 0
+task t18 200 0 200 8 const:10000 0
+task t19 500 0 500 8 const:10000 0
+task t20 50 0 50 8 const:10000 0
+task t21 10 0 10 8 const:10000 0
+task t22 100 0 100 8 const:10000 0
+task t23 1000 0 1000 8 const:10000 0
+task t24 20 0 20 8 const:10000 0
+task t25 200 0 200 8 const:10000 0
+task t26 500 0 500 8 const:10000 0
+task t27 50 0 50 8 const:10000 0
+task t28 10 0 10 8 const:10000 0
+task t29 100 0 100 8 const:10000 0
+task t30 1000 0 1000 8 const:10000 0
+task t31 20 0 20 8 const:10000 0
+task t32 200 0 200 8 const:10000 0
+task t33 500 0 500 8 const:10000 0
+task t34 50 0 50 8 const:10000 0
+task t35 10 0 10 8 const:10000 0
+task t36 100 0 100 8 const:10000 0
+task t37 1000 0 1000 8 const:10000 0
+task t38 20 0 20 8 const:10000 0
+task t39 200 0 200 8 const:10000 0
+task t40 500 0 500 8 const:10000 0
+task t41 50 0 50 8 const:10000 0
+task t42 10 0 10 8 const:10000 0
+task t43 100 0 100 8 const:10000 0
+task t44 1000 0 1000 8 const:10000 0
+task t45 20 0 20 8 const:10000 0
+task t46 200 0 200 8 const:10000 0
+task t47 500 0 500 8 const:10000 0
+task t48 50 0 50 8 const:10000 0
+task t49 10 0 10 8 const:10000 0
+task t50 100 0 100 8 const:10000 0
+task t51 1000 0 1000 8 const:10000 0
+task t52 20 0 20 8 const:10000 0
+task t53 200 0 200 8 const:10000 0
+task t54 500 0 500 8 const:10000 0
+task t55 50 0 50 8 const:10000 0
+task t56 10 0 10 8 const:10000 0
+task t57 100 0 100 8 const:10000 0
+task t58 1000 0 1000 8 const:10000 0
+task t59 20 0 20 8 const:10000 0
+task t60 200 0 200 8 const:10000 0
+task t61 500 0 500 8 const:10000 0
+task t62 50 0 50 8 const:10000 0
+task t63 10 0 10 8 const:10000 0
+link 0 1
+link 1 2
+link 2 3
+link 3 4
+link 4 5
+link 5 6
+link 6 7
+link 7 8
+link 8 0
+link 8 63
+link 9 10
+link 10 11
+link 11 12
+link 12 13
+link 13 14
+link 14 15
+link 15 16
+link 16 17
+link 17 9
+link 17 63
+link 18 19
+link 19 20
+link 20 21
+link 21 22
+link 22 23
+link 23 24
+link 24 25
+link 25 26
+link 26 18
+link 26 63
+link 27 28
+link 28 29
+link 29 30
+link 30 31
+link 31 32
+link 32 33
+link 33 34
+link 34 35
+link 35 27
+link 35 63
+link 36 37
+link 37 38
+link 38 39
+link 39 40
+link 40 41
+link 41 42
+link 42 43
+link 43 44
+link 44 36
+link 44 63
+link 45 46
+link 46 47
+link 47 48
+link 48 49
+link 49 50
+link 50 51
+link 51 52
+link 52 53
+link 53 45
+link 53 63
+link 54 55
+link 55 56
+link 56 57
+link 57 58
+link 58 59
+link 59 60
+link 60 61
+link 61 62
+link 62 54
+link 62 63

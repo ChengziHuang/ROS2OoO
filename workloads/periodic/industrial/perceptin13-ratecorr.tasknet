@@ -1,0 +1,31 @@
+tasknet v1
+tick_ns 3333333
+H 227280
+D 30
+initseed 1
+task mmwave_radar 30 0 30 8 const:100000 0
+task camera 10 0 10 8 const:30000 0
+task lidar 30 0 30 8 const:100000 0
+task gnss_imu 3 0 3 8 const:10000 0
+task perception_2d 10 0 10 8 const:30000 0
+task perception_3d 30 0 30 8 const:100000 0
+task perception_fusion 30 0 30 8 const:100000 0
+task localization 30 0 30 8 const:100000 0
+task tracking 30 0 30 8 const:100000 0
+task prediction 30 0 30 8 const:100000 0
+task planning 30 0 30 8 const:100000 0
+task control 3 0 3 8 const:10000 0
+task vehicle_chassis 3 0 3 8 const:10000 0
+link 0 6
+link 1 4
+link 2 5
+link 2 7
+link 3 7
+link 4 6
+link 5 6
+link 6 8
+link 7 10
+link 8 9
+link 9 10
+link 10 11
+link 11 12

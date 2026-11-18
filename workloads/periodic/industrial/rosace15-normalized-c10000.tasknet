@@ -1,0 +1,41 @@
+tasknet v1
+tick_ns 100000
+H 7299300
+D 1000
+initseed 1
+task h_c 1000 0 1000 8 const:10000 0
+task delta_e_c_sink 200 0 200 8 const:10000 0
+task Vz_control 200 0 200 8 const:10000 0
+task engine 50 0 50 8 const:10000 0
+task h_filter 100 0 100 8 const:10000 0
+task aircraft_dynamics 50 0 50 8 const:10000 0
+task q_filter 100 0 100 8 const:10000 0
+task Vz_filter 100 0 100 8 const:10000 0
+task az_filter 100 0 100 8 const:10000 0
+task delta_th_c_sink 200 0 200 8 const:10000 0
+task altitude_hold 200 0 200 8 const:10000 0
+task Va_c 1000 0 1000 8 const:10000 0
+task Va_control 200 0 200 8 const:10000 0
+task elevator 50 0 50 8 const:10000 0
+task Va_filter 100 0 100 8 const:10000 0
+link 3 5
+link 14 12
+link 6 12
+link 6 2
+link 5 6
+link 11 12
+link 2 1
+link 2 13
+link 7 12
+link 7 2
+link 4 10
+link 5 8
+link 13 5
+link 5 7
+link 8 2
+link 0 10
+link 10 2
+link 5 14
+link 5 4
+link 12 3
+link 12 9

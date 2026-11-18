@@ -1,0 +1,13 @@
+let_ros_test_nodes let_ros_test::Source -r __node:=src_a  -p period_ms:=10 -p topic:=a -p seed:=11 -p work:=200000
+let_ros_test_nodes let_ros_test::Source -r __node:=src_b  -p period_ms:=15 -p topic:=b -p seed:=12 -p work:=200000
+let_ros_test_nodes let_ros_test::Source -r __node:=src_c1 -p period_ms:=20 -p topic:=c -p seed:=13
+let_ros_test_nodes let_ros_test::Source -r __node:=src_c2 -p period_ms:=30 -p topic:=c -p seed:=14
+let_ros_test_nodes let_ros_test::Relay -r __node:=relay_a -p in:=a -p out:=a2 -p work:=500000
+let_ros_test_nodes let_ros_test::Relay -r __node:=relay_c -p work:=300000 -p in:=c -p out:=c2
+let_ros_test_nodes let_ros_test::Fuse  -r __node:=fuse_ab -p in0:=a2 -p in1:=b -p out:=f
+let_ros_test_nodes let_ros_test::Gate  -r __node:=gate    -p in:=f -p out:=g -p mod:=3
+let_ros_test_nodes let_ros_test::Burst -r __node:=burst   -p in:=g -p out:=u
+let_ros_test_nodes let_ros_test::Sampler -r __node:=sampler -p period_ms:=25 -p inputs:=[u,c2,loop] -p out:=s
+let_ros_test_nodes let_ros_test::Relay   -r __node:=relay_loop -p work:=300000 -p in:=s -p out:=loop
+let_ros_test_nodes let_ros_test::TwoTimers -r __node:=tt -p out:=t
+let_ros_test_nodes let_ros_test::Relay     -r __node:=relay_t -p work:=300000 -p in:=t -p out:=t2

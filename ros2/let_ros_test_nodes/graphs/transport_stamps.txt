@@ -1,0 +1,3 @@
+let_ros_test_nodes let_ros_test::Source -r __node:=stamp_source -p period_ms:=10 -p topic:=samples
+let_ros_test_nodes let_ros_test::MessageStamp -r __node:=fast_stamp -p in:=samples -p out:=fast_stamps -p transport_delay_ns:=0
+let_ros_test_nodes let_ros_test::MessageStamp -r __node:=slow_stamp -p in:=samples -p out:=slow_stamps -p transport_delay_ns:=35000000

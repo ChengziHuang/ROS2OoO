@@ -1,0 +1,4 @@
+let_ros_test_nodes let_ros_test::Source -r __node:=source -p topic:=a
+let_ros_test_nodes let_ros_test::LazyRelay -r __node:=lazy1 -p in:=a -p out:=b
+let_ros_test_nodes let_ros_test::LazyRelay -r __node:=lazy2 -p in:=b -p out:=c
+let_ros_test_nodes let_ros_test::Relay -r __node:=sink -p in:=c -p out:=result

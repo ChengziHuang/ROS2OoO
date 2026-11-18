@@ -1,0 +1,132 @@
+tasknet v1
+tick_ns 100000
+H 701957
+D 696
+initseed 7628543671307127626
+task t0 12 5 11 8 bimodal:10000:50:20 0
+task t1 66 51 29 8 bimodal:10000:50:20 0
+task t2 44 36 43 8 bimodal:10000:50:20 0
+task t3 104 55 100 8 bimodal:10000:50:20 0
+task t4 17 16 10 8 bimodal:10000:50:20 0
+task t5 826 156 637 8 bimodal:10000:50:20 0
+task t6 37 18 36 8 bimodal:10000:50:20 0
+task t7 18 7 4 8 bimodal:10000:50:20 0
+task t8 38 5 17 8 bimodal:10000:50:20 0
+task t9 804 709 315 8 bimodal:10000:50:20 0
+task t10 18 3 13 8 bimodal:10000:50:20 0
+task t11 13 8 11 8 bimodal:10000:50:20 0
+task t12 22 5 20 8 bimodal:10000:50:20 0
+task t13 65 48 18 8 bimodal:10000:50:20 0
+task t14 218 43 175 8 bimodal:10000:50:20 0
+task t15 53 21 35 8 bimodal:10000:50:20 0
+task t16 571 149 260 8 bimodal:10000:50:20 0
+task t17 34 33 10 8 bimodal:10000:50:20 0
+task t18 216 122 61 8 bimodal:10000:50:20 0
+task t19 721 253 696 8 bimodal:10000:50:20 0
+task t20 353 317 308 8 bimodal:10000:50:20 0
+task t21 42 32 21 8 bimodal:10000:50:20 0
+task t22 279 172 168 8 bimodal:10000:50:20 0
+task t23 123 91 93 8 bimodal:10000:50:20 0
+task t24 321 284 303 8 bimodal:10000:50:20 0
+task t25 179 14 145 8 bimodal:10000:50:20 0
+task t26 513 203 154 8 bimodal:10000:50:20 0
+task t27 137 125 42 8 bimodal:10000:50:20 0
+task t28 212 169 90 8 bimodal:10000:50:20 0
+task t29 201 58 98 8 bimodal:10000:50:20 0
+task t30 504 382 338 8 bimodal:10000:50:20 0
+task t31 486 281 435 8 bimodal:10000:50:20 0
+task t32 45 0 28 8 bimodal:10000:50:20 0
+task t33 50 33 45 8 bimodal:10000:50:20 0
+task t34 22 16 13 8 bimodal:10000:50:20 0
+task t35 12 6 11 8 bimodal:10000:50:20 0
+task t36 80 76 68 8 bimodal:10000:50:20 0
+task t37 193 17 140 8 bimodal:10000:50:20 0
+task t38 320 54 161 8 bimodal:10000:50:20 0
+task t39 13 3 3 8 bimodal:10000:50:20 0
+task t40 21 0 14 8 bimodal:10000:50:20 0
+task t41 795 360 416 8 bimodal:10000:50:20 0
+task t42 40 16 31 8 bimodal:10000:50:20 0
+task t43 103 75 41 8 bimodal:10000:50:20 0
+task t44 505 240 441 8 bimodal:10000:50:20 0
+task t45 84 29 32 8 bimodal:10000:50:20 0
+task t46 24 9 15 8 bimodal:10000:50:20 0
+task t47 733 160 372 8 bimodal:10000:50:20 0
+task t48 378 130 377 8 bimodal:10000:50:20 0
+task t49 30 15 27 8 bimodal:10000:50:20 0
+task t50 900 484 240 8 bimodal:10000:50:20 0
+task t51 165 39 165 8 bimodal:10000:50:20 0
+task t52 67 32 33 8 bimodal:10000:50:20 0
+task t53 661 186 263 8 bimodal:10000:50:20 0
+task t54 27 4 9 8 bimodal:10000:50:20 0
+task t55 204 105 173 8 bimodal:10000:50:20 0
+task t56 39 30 18 8 bimodal:10000:50:20 0
+task t57 62 0 61 8 bimodal:10000:50:20 0
+task t58 190 104 95 8 bimodal:10000:50:20 0
+task t59 163 13 50 8 bimodal:10000:50:20 0
+task t60 21 2 9 8 bimodal:10000:50:20 0
+task t61 12 6 11 8 bimodal:10000:50:20 0
+task t62 30 4 29 8 bimodal:10000:50:20 0
+task t63 14 2 9 8 bimodal:10000:50:20 0
+link 0 1
+link 0 2
+link 0 3
+link 0 4
+link 0 5
+link 0 6
+link 0 7
+link 0 8
+link 0 9
+link 0 10
+link 0 11
+link 0 12
+link 0 13
+link 0 14
+link 0 15
+link 0 16
+link 0 17
+link 0 18
+link 0 19
+link 0 20
+link 0 21
+link 0 22
+link 0 23
+link 0 24
+link 0 25
+link 0 26
+link 0 27
+link 0 28
+link 0 29
+link 0 30
+link 0 31
+link 0 32
+link 0 33
+link 0 34
+link 0 35
+link 0 36
+link 0 37
+link 0 38
+link 0 39
+link 0 40
+link 0 41
+link 0 42
+link 0 43
+link 0 44
+link 0 45
+link 0 46
+link 0 47
+link 0 48
+link 0 49
+link 0 50
+link 0 51
+link 0 52
+link 0 53
+link 0 54
+link 0 55
+link 0 56
+link 0 57
+link 0 58
+link 0 59
+link 0 60
+link 0 61
+link 0 62
+link 0 63

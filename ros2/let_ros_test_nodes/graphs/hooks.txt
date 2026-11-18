@@ -1,0 +1,8 @@
+let_ros_test_nodes let_ros_test::Source -r __node:=src_ipc    -p period_ms:=10 -p topic:=ipc    -p ipc:=true -p seed:=21
+let_ros_test_nodes let_ros_test::Source -r __node:=src_ipc0   -p period_ms:=10 -p topic:=ipc0   -p ipc:=true -p seed:=24
+let_ros_test_nodes let_ros_test::Source -r __node:=src_lazy   -p period_ms:=20 -p topic:=lazy   -p lazy:=true -p seed:=22
+let_ros_test_nodes let_ros_test::Source -r __node:=src_orphan -p period_ms:=20 -p topic:=orphan -p lazy:=true -p seed:=23
+let_ros_test_nodes let_ros_test::Relay  -r __node:=relay_ipc  -p in:=ipc  -p out:=ipc2 -p ipc:=true
+let_ros_test_nodes let_ros_test::Relay  -r __node:=relay_lazy -p in:=lazy -p out:=lazy2
+let_ros_test_nodes let_ros_test::TimerStamp -r __node:=stamp -p period_ms:=15 -p topic:=ts
+let_ros_test_nodes let_ros_test::Relay  -r __node:=relay_ts -p in:=ts -p out:=ts2
